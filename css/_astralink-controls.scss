@@ -1,0 +1,26 @@
+label{
+    margin-bottom:3px;
+    line-height:normal;
+}
+
+input[type="text"]{
+    width: 100%;
+    @include box-sizing(border-box);
+    padding: 16px 8px;
+    font-family:"Droid Sans";
+    font-weight:bold;
+    margin:0px;
+}
+
+.btn{
+    font-family:"Droid Sans";
+}
+.btn-link{
+    font-family:"Droid Sans";
+    font-weight:bold;
+}
+/* kendo modification */
+.k-window-title{
+    font-family:"Droid Sans";
+    font-weight:bold;
+}

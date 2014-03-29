@@ -1,0 +1,21 @@
+#OS junk files
+[Tt]humbs.db
+*.DS_Store
+#Subversion files
+.svn
+.cvs
+
+# Office Temp Files
+~$*
+
+# Custom
+GruntFile.js
+node_modules
+
+*.json
+
+# PHP Storm
+.idea
+
+#SASS
+.sass-cache

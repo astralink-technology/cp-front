@@ -1,0 +1,71 @@
+label{
+    margin-bottom: 8px;
+    line-height: normal;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+input[type="text"],input[type="password"],input[type="email"]{
+    width: 100%;
+    @include box-sizing(border-box);
+    padding: 24px 12px;
+    font-family:"Roboto";
+    font-weight:600;
+    margin:0px;
+    font-size:20px;
+}
+
+.btn{
+    font-family:"Roboto";
+}
+.btn-link{
+    font-family:"Roboto";
+    font-weight:500;
+    text-shadow:none;
+}
+
+.btn-primary {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: $p2p-primary;
+  border-color: $p2p-primary;
+  *background-color: $p2p-primary;
+  background-image: none;
+@include border-left-radius(20px);
+@include border-right-radius(20px);
+  &:hover, &:focus, &:active, &.active, &.disabled, &[disabled] {
+    color: #ffffff;
+    background-color: $p2p-primary-dark;
+    *background-color: $p2p-primary-dark;
+  }
+  &:active, &.active {
+    background-color: $p2p-primary \9;
+  }
+}
+
+.btn-default {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: $p2p-default;
+  border-color: $p2p-default;
+  *background-color: $p2p-default;
+  background-image: none;
+@include border-left-radius(20px);
+@include border-right-radius(20px);
+  &:hover, &:focus, &:active, &.active, &.disabled, &[disabled] {
+    color: #ffffff;
+    background-color: $p2p-default-dark;
+    *background-color: $p2p-default-dark;
+  }
+  &:active, &.active {
+    background-color: $p2p-default \9;
+  }
+}
+
+/* kendo modification */
+.k-window-title{
+    font-family:"Roboto";
+    font-weight:600;
+}

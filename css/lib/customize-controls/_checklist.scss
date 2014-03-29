@@ -1,0 +1,52 @@
+/* checklist */
+.checklist {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	  li {
+		list-style: none;
+		height: 48px;
+		background: white;
+		border-top: 1px solid #ccc;
+		border-left: 1px solid #ccc;
+		border-right: 1px solid #ccc;
+		&:last-child {
+			border-bottom: 1px solid #ccc;
+			@include border-bottom-radius(4px);
+		}
+		&:first-child {
+			@include border-top-radius(4px);
+		}
+		label {
+		  display: block;
+		  position: relative;
+		  padding: 15px;
+		  border-bottom: 0;
+		  cursor: pointer;
+		  cursor: hand;
+		}
+	  }
+	.checker{
+		display:none;
+		width:17px;
+		height:14px;
+		background-image: url('/images/tick.png');
+		background-repeat:no-repat;
+	}
+	  input[type="checkbox"], input[type="radio"] {
+		cursor: pointer;
+		display:none;
+		float: right;
+		line-height: 20px;	
+		&:checked + span{
+			color:$color-text;
+			 font-weight:600;
+			 .checker{
+				display:block;
+				}
+			 &::after + span{
+			 font-weight:600;
+		  }
+		}	
+	  }
+	}
