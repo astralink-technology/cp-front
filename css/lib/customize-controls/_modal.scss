@@ -1,9 +1,17 @@
 /* overrides */
+.modal-content{
+  float:left;
+  display:block;
+  .form-group{
+    float:left;
+    width:100%;
+  }
+}
 .modal-body{
+  float:left;
     padding:8px 20px 0px 20px;
 
    .full-block{
-     float:none;
      margin:0px 0px 12px 0px;
    }
  }

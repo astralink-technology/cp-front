@@ -1,0 +1,14 @@
+//Sass Mixin
+@import "lib/bourbon/bourbon"; //bourbon mixin
+@import "lib/_compass_mixin"; //compass mixin
+
+//LIBRARIES
+@import "lib/_normalize"; //IE normalizer
+@import "lib/_tipsy"; //IE normalizer
+@import "lib/flags/_flags"; //country flags
+@import "lib/kendo/_kendo-common"; //kendo common
+@import "lib/kendo/_kendo-default"; //kendo default
+@import "lib/customize-controls/_customize-controls"; //customized controls
+
+//JSMODULES
+@import "custom/core/_country-code-phone-input";

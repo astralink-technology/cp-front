@@ -1,5 +1,5 @@
 /* Utilities to be used with require js */
-define('utils/validationUtils', ['jquery'], function ($)  {
+define('utils/validationUtils', function ()  {
 
     var validateRequired = function(variable, feedback, customMessage, alert){
         if (!variable){
