@@ -1,4 +1,4 @@
-define("core/countryCodePhoneInput", ['kendo'], function (kendo) {
+define("core/countryCodePhoneInput", ['jquery', 'kendo/src/kendo.web'], function ($, kendo) {
     var _settings = null;
     var _countryData = [ {
         name: "Afghanistan",

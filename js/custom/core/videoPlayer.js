@@ -1,5 +1,5 @@
-define("core/videoPlayer", ['bootstrap'],
-    function (bootstrap) {
+define("core/videoPlayer", ['jquery', 'bootstrap'],
+    function ($, bootstrap) {
         var _settings = null;
 
         var methods = {

@@ -1,0 +1,14 @@
+.js-mod-confirm-box{
+ h2{
+   margin:10px 0px;
+ }
+  p{
+    font-size:em(16, $text-size-base);
+  }
+  .control-group{
+    margin:0px;
+    button{
+      margin:0px 0px 0px 12px;
+    }
+  }
+}

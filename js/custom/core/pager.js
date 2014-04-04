@@ -1,5 +1,5 @@
-define("core/pager", ['bootstrap'],
-    function (bootstrap) {
+define("core/pager", ['jquery', 'bootstrap'],
+    function ($, bootstrap) {
         var _settings = null;
         var _currentActive = 1;
         var _pages = 0;

@@ -1,6 +1,7 @@
 //Sass Mixin
 @import "lib/bourbon/bourbon"; //bourbon mixin
 @import "lib/_compass_mixin"; //compass mixin
+@import "partials/_variables"; //compass mixin
 
 //LIBRARIES
 @import "lib/_normalize"; //IE normalizer
@@ -12,3 +13,5 @@
 
 //JSMODULES
 @import "custom/core/_country-code-phone-input";
+@import "custom/core/_confirm-box";
+@import "custom/core/_ajax-loader";

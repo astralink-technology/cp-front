@@ -1,5 +1,5 @@
-define("core/scraping", [],
-    function () {
+define("core/scraping", ['jquery'],
+    function ($) {
         var _settings = null;
         var methods = {
             init: function (options) {

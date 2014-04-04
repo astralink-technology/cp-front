@@ -6933,3 +6933,19 @@ input.k-textbox, textarea.k-textbox, input.k-textbox:hover, textarea.k-textbox:h
   .js-mod-country-code-phone-input .country-input, .js-mod-country-code-phone-input .phone-input {
     float: left;
     margin: 0px 12px 0px 0px; }
+
+.js-mod-confirm-box h2 {
+  margin: 10px 0px; }
+.js-mod-confirm-box p {
+  font-size: 1.14286em; }
+.js-mod-confirm-box .control-group {
+  margin: 0px; }
+  .js-mod-confirm-box .control-group button {
+    margin: 0px 0px 0px 12px; }
+
+.js-mod-ajaxloader h2 {
+  margin: 0px; }
+.js-mod-ajaxloader span {
+  font-size: 1.14286em; }
+.js-mod-ajaxloader .loader-img {
+  margin: 0px 12px 0px 0px; }
